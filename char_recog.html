@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Character Recognition</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0"> </script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+
+<body>
+  <h1>Character Recognition</h1>
+  <p>Character recognition using Convolutional Neural Networks.</p>
+  
+  <section>
+    <canvas id="main-canvas" width="300" height="300"></canvas>
+    <canvas id="small-canvas" width="28" height="28"></canvas>
+    <div id="prediction"></div>
+  </section>
+
+  <button id="erase">Clear</button>
+  <p id="acc" ></p>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
